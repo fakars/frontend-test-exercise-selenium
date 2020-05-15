@@ -10,9 +10,9 @@ public class DriverManager {
     private static DriverManager instance;
     private final WebDriver driver;
     private final WebDriverWait driverWait;
-    private final DriverSettings settings = DriverSettings.instance();
 
     private DriverManager() {
+        DriverSettings settings = DriverSettings.instance();
         System.setProperty(settings.getDriverProp(), settings.getDriverPath());
         driver = settings.getDriverType();
         driverWait = new WebDriverWait(driver, 20);

@@ -3,370 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-15T06:40:50.928Z",
-        "line": 11,
-        "name": "As a user I want to search for products using the categories list",
-        "description": "",
-        "id": "verify-categories-list-functionality;as-a-user-i-want-to-search-for-products-using-the-categories-list;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 244022,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedImgReport(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6313645843,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I\u0027m on the landing page and I select a country",
-            "match": {
-              "location": "LandingPageSteps.java:11"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3889629726,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I hover over the categories menu and select a HOME_APPLIANCES and a AIR_CONDITIONING",
-            "match": {
-              "arguments": [
-                {
-                  "val": "HOME_APPLIANCES",
-                  "offset": 46
-                },
-                {
-                  "val": "AIR_CONDITIONING",
-                  "offset": 68
-                }
-              ],
-              "location": "HomePageSteps.java:11"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 478336384,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the subcategory title should match the selected AIR_CONDITIONING",
-            "match": {
-              "arguments": [
-                {
-                  "val": "AIR_CONDITIONING",
-                  "offset": 48
-                }
-              ],
-              "location": "ListingsPageSteps.java:12"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 155677862,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the results counter should be visible",
-            "match": {
-              "location": "ListingsPageSteps.java:16"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-15T06:41:01.773Z",
+        "start_timestamp": "2020-05-15T15:34:44.670Z",
         "line": 12,
-        "name": "As a user I want to search for products using the categories list",
-        "description": "",
-        "id": "verify-categories-list-functionality;as-a-user-i-want-to-search-for-products-using-the-categories-list;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 76671,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedImgReport(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 965998276,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I\u0027m on the landing page and I select a country",
-            "match": {
-              "location": "LandingPageSteps.java:11"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4023011523,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I hover over the categories menu and select a TECHNOLOGY and a CELLPHONES",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TECHNOLOGY",
-                  "offset": 46
-                },
-                {
-                  "val": "CELLPHONES",
-                  "offset": 63
-                }
-              ],
-              "location": "HomePageSteps.java:11"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 674647885,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the subcategory title should match the selected CELLPHONES",
-            "match": {
-              "arguments": [
-                {
-                  "val": "CELLPHONES",
-                  "offset": 48
-                }
-              ],
-              "location": "ListingsPageSteps.java:12"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 173856419,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the results counter should be visible",
-            "match": {
-              "location": "ListingsPageSteps.java:16"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-15T06:41:07.613Z",
-        "line": 13,
-        "name": "As a user I want to search for products using the categories list",
-        "description": "",
-        "id": "verify-categories-list-functionality;as-a-user-i-want-to-search-for-products-using-the-categories-list;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 100258,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedImgReport(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 911238921,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I\u0027m on the landing page and I select a country",
-            "match": {
-              "location": "LandingPageSteps.java:11"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2388856073,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I hover over the categories menu and select a TOOLS_INDUSTRIAL and a TEXTILE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TOOLS_INDUSTRIAL",
-                  "offset": 46
-                },
-                {
-                  "val": "TEXTILE",
-                  "offset": 69
-                }
-              ],
-              "location": "HomePageSteps.java:11"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 475940258,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the subcategory title should match the selected TEXTILE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TEXTILE",
-                  "offset": 48
-                }
-              ],
-              "location": "ListingsPageSteps.java:12"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 112029362,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the results counter should be visible",
-            "match": {
-              "location": "ListingsPageSteps.java:16"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-15T06:41:11.504Z",
-        "line": 14,
-        "name": "As a user I want to search for products using the categories list",
-        "description": "",
-        "id": "verify-categories-list-functionality;as-a-user-i-want-to-search-for-products-using-the-categories-list;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 126412,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedImgReport(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 817230754,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I\u0027m on the landing page and I select a country",
-            "match": {
-              "location": "LandingPageSteps.java:11"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2402466831,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I hover over the categories menu and select a TOYS_BABIES and a BABY_ROOM",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TOYS_BABIES",
-                  "offset": 46
-                },
-                {
-                  "val": "BABY_ROOM",
-                  "offset": 64
-                }
-              ],
-              "location": "HomePageSteps.java:11"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 537927183,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the subcategory title should match the selected BABY_ROOM",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BABY_ROOM",
-                  "offset": 48
-                }
-              ],
-              "location": "ListingsPageSteps.java:12"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 133339329,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the results counter should be visible",
-            "match": {
-              "location": "ListingsPageSteps.java:16"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "Verify categories list functionality",
-    "description": "",
-    "id": "verify-categories-list-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/features/categories.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2020-05-15T06:41:15.398Z",
-        "line": 11,
         "name": "As a user I want to access a posting and check its data",
         "description": "",
         "id": "verify-posting-view-data;as-a-user-i-want-to-access-a-posting-and-check-its-data;;2",
         "after": [
           {
             "result": {
-              "duration": 89531,
+              "duration": 189762,
               "status": "passed"
             },
             "match": {
@@ -379,10 +24,10 @@
         "steps": [
           {
             "result": {
-              "duration": 801636890,
+              "duration": 7010642805,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I\u0027m on the landing page and I select a country",
             "match": {
               "location": "LandingPageSteps.java:11"
@@ -391,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 6926542434,
+              "duration": 3140415147,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I hover over the categories menu and select a HOME_APPLIANCES and a AIR_CONDITIONING",
             "match": {
               "arguments": [
@@ -413,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 3471831918,
+              "duration": 3069231748,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "select CAPITAL_FEDERAL as location from the list and click on a random posting",
             "match": {
               "arguments": [
@@ -431,15 +76,23 @@
           },
           {
             "result": {
-              "duration": 474139459,
+              "duration": 433858406,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "the product details should match those found in the listing",
             "match": {
               "location": "PostingPageSteps.java:10"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@posting"
           }
         ]
       }

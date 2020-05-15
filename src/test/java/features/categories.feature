@@ -1,5 +1,6 @@
 Feature: Verify categories list functionality
 
+  @regression @categories
   Scenario Outline: As a user I want to search for products using the categories list
     Given I'm on the landing page and I select a country
     When I hover over the categories menu and select a <category> and a <sub category>

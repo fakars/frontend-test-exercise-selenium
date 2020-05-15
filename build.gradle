@@ -24,4 +24,6 @@ test {
     systemProperty "site-id", System.getProperty("site-id")
     systemProperty "browser", System.getProperty("browser")
     systemProperty "mode", System.getProperty("mode")
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+
 }
