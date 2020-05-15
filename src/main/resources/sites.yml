@@ -1,0 +1,13 @@
+!!utilities.SiteUtils
+
+baseUrl: https://www.mercadolibre.com
+
+siteUrls:
+  AR: https://www.mercadolibre.com.ar/
+  BR: https://www.mercadolivre.com.br/
+  CL: https://www.mercadolibre.cl/
+
+sites:
+  AR: AR
+  BR: BR
+  CL: CL

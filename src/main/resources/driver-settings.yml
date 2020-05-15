@@ -1,0 +1,10 @@
+!!config.DriverSettings
+
+chrome:
+  property: webdriver.chrome.driver
+  name: chromedriver
+
+firefox:
+  property: webdriver.gecko.driver
+  name: geckodriver
+
