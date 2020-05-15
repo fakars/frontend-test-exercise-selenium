@@ -27,13 +27,24 @@ test {
     systemProperty "cucumber.options", System.getProperty("cucumber.options")
 
     afterTest { desc, res ->
-            logger.lifecycle "\n--------------------------------------------------------------------------------------\n" +
+            logger.lifecycle "\n---------------------------------------------------------------------------------\n" +
                 "\nFeature: ${desc.className}\nTest: ${desc.displayName}" +
-                "\nResult: ${res}\nTest Report: ${System.getProperty("user.dir")}" + "/reports/html/index.html"
-            logger.lifecycle "\n--------------------------------------------------------------------------------------\n"
+                "\nResult: ${res}"
             if(res.exception != null) {
                 logger.lifecycle "\nException: ${res.exception}"
             }
+            logger.lifecycle "\n---------------------------------------------------------------------------------\n"
     }
 
+    afterSuite { desc, result ->
+        if (!desc.parent) {
+            def output = "Results: ${result.resultType} (${result.testCount} " +
+                    "tests, ${result.successfulTestCount} passed, ${result.failedTestCount} " +
+                    "failed, ${result.skippedTestCount} skipped) " +
+                    "| Test Report: ${System.getProperty("user.dir")}/reports/html/index.html"
+            def startItem = '|  ', endItem = '  |'
+            def repeatLength = startItem.length() + output.length() + endItem.length()
+            println('\n' + ('-' * repeatLength) + '\n' + startItem + output + endItem + '\n' + ('-' * repeatLength))
+        }
+    }
 }
