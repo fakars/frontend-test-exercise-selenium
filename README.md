@@ -1,6 +1,6 @@
 # Primary front end automation tests exercises
 
- Automated tests for [MercadoLibre Argentina](https://www.mercadolibre.com.ar/)
+ Automated front end tests for [MercadoLibre Argentina](https://www.mercadolibre.com.ar/)
  created as part of Primary's interview exercises 
 ## Technologies used:
 
