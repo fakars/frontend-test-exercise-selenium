@@ -16,13 +16,13 @@
 ## Install and usage:
 
 1. Clone the project using the command `git clone https://github.com/fakars/frontend-test-exercise-selenium.git`.
-2. At the project's root folder run the command `./gradlew clean test`, some optional parameters are available using 
-   the project flag `-DparameterName=argument`.
+2. At the project's root folder run the command `./gradlew clean test` (`gradlew` if running on Windows), 
+some optional parameters are available using the project flag `-D{parameterName}={argument}`.
 3. Optional parameters that can be passed:
 
-| ParamName          | Description                                                                              | Available values                                   |
-| ------------------ | ---------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| `site-id`          | Sets the country page link selector to select the country in which the tests will be run | AR, BR, etc, *Default: 'AR'*                       |                             
-| `browser`          | Sets the browser used to execute the tests                                               | chrome, firefox *Default: 'chrome'*                |             
-| `mode`             | It permits running tests in headless mode                                                | headless                                           |
-| `cucumber.options` | Cucumber default CLI parameter, it can be used to pass tags to selectively run tests     | '--tags *@tag*' @regression, @categories, @posting |
+| ParamName          | Description                                                                                                            | Available values                                   |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `site-id`          | Sets the country page link selector to select the country in which the tests will be run                               | AR, BR, etc, *Default: 'AR'*                       |                             
+| `browser`          | Sets the browser used to execute the tests                                                                             | chrome, firefox *Default: 'chrome'*                |             
+| `mode`             | It permits running tests in headless mode                                                                              | headless                                           |
+| `cucumber.options` | Cucumber default CLI parameter, it can be used to pass tags to selectively run tests using the value "--tags *@{tag}*" | @regression, @categories, @posting                 |

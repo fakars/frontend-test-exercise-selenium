@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-15T15:34:44.670Z",
+        "start_timestamp": "2020-05-15T16:23:12.902Z",
         "line": 12,
         "name": "As a user I want to access a posting and check its data",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 189762,
+              "duration": 244230,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7010642805,
+              "duration": 5479703448,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3140415147,
+              "duration": 3862322754,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 3069231748,
+              "duration": 3412369589,
               "status": "passed"
             },
             "line": 7,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 433858406,
+              "duration": 502254702,
               "status": "passed"
             },
             "line": 8,

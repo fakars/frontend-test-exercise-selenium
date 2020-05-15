@@ -61,15 +61,15 @@ public class DriverSettings {
         String path = "src/main/resources/drivers/";
         if(OS.equals("linux")) {
             if(BROWSER.equals("firefox"))
-                path = path.concat(OS.concat("/" +getFirefox().get("name")));
+                path = path.concat(OS.concat("/" + getFirefox().get("name")));
             if(BROWSER.equals("chrome"))
                 path = path.concat(OS.concat("/" + getChrome().get("name")));
         }
         if(OS.contains("windows")) {
             if(BROWSER.equals("firefox"))
-                path = path.concat(OS.concat("/" + getFirefox().get("name").concat(".exe")));
+                path = path.concat("windows/" + getFirefox().get("name").concat(".exe"));
             if(BROWSER.equals("chrome"))
-                path = path.concat(OS.concat("/" + getChrome().get("name").concat(".exe")));
+                path = path.concat("windows/" + getChrome().get("name").concat(".exe"));
         }
         if(OS.contains("mac os")) {
             if(BROWSER.equals("firefox"))
