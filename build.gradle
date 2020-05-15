@@ -26,4 +26,14 @@ test {
     systemProperty "mode", System.getProperty("mode")
     systemProperty "cucumber.options", System.getProperty("cucumber.options")
 
+    afterTest { desc, res ->
+            logger.lifecycle "\n--------------------------------------------------------------------------------------\n" +
+                "\nFeature: ${desc.className}\nTest: ${desc.displayName}" +
+                "\nResult: ${res}\nTest Report: ${System.getProperty("user.dir")}" + "/reports/html/index.html"
+            logger.lifecycle "\n--------------------------------------------------------------------------------------\n"
+            if(res.exception != null) {
+                logger.lifecycle "\nException: ${res.exception}"
+            }
+    }
+
 }
